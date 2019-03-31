@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Unity WebGL Player | Mebli</title>
+	<link rel="shortcut icon" href="TemplateData/favicon.ico">
+	<link rel="stylesheet" href="TemplateData/style.css">
+	<script src="TemplateData/UnityProgress.js"></script>
+	<script src="%UNITY_WEBGL_LOADER_URL%"></script>
+	<script>
+		var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress,
+    Module: {
+        onRuntimeInitialized: MyInitializationCallbackFunction,
+    }});
+		gameInstance.SetFullscreen(1);
+	</script>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.webgl-content {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="webgl-content">
+		<div id="gameContainer"></div>
+	</div>
+	<div class="progress" hidden>
+		<div class="main-content">
+			<div><img src="img/photo_2017-06-12_20-59-39.jpg" alt="" class="logo"></div>
+			<div class="progres">
+				<h2>пакс металл</h2>
+				<div class="bar_wrap">
+					<div class="bar">
+						<!-- Полоска загрузки -->
+						<div class="bar_0"></div>
+					</div>
+				</div>
+				<img src="img/photo_2017-06-12_20-59-39.jpg" alt="" class="logo">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

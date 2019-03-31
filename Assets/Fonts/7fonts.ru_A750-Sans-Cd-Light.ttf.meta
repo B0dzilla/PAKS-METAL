@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9d58d4d1ea0bcc5479f44a699d83f928
+timeCreated: 1498065562
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: A750-Sans-Cd
+  fontNames:
+  - A750-Sans-Cd
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

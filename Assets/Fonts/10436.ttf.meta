@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 762d5d6348dd08744b35551d77795750
+timeCreated: 1498065027
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Citrica Cyrillic
+  fontNames:
+  - Citrica Cyrillic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
